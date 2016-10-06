@@ -36,11 +36,13 @@ Introduction about this part. Start with a fresh history.
 
 ## Inspecting the FASTQ files
 
-We want to inspect our FASTQ file to get multiple information like the read length and the quality. Furthermore we want to trim low quality bases from the 3' end.
+In this step we want to
+* inspect our FASTQ file using **FastQC ⚙** to get multiple information like the read length and the quality.
+* trim low quality bases from the 3' end using **Trim Galore ⚙** for future processing.
 
 :pencil2: ***Hands on!***
 
-1. Import the FASTQ file pair `GSM461177_untreat_paired_subset_1.fastq` and `2` from [Zenodo](http://dx.doi.org/10.5281/zenodo.61771). > sads
+1. Import the FASTQ file pair `GSM461177_untreat_paired_subset_1.fastq` and `2` from [Zenodo](http://dx.doi.org/10.5281/zenodo.61771).
 
   > :bulb: **Importing data via links**
   > * Copy the link location.
