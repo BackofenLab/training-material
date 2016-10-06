@@ -48,19 +48,12 @@ We want to inspect our FASTQ file to get multiple information like the read leng
   > * Select **Paste/Fetch Data**.
   > * Paste the link into the text field.
   > * Press **Start**.
-
-
-  > :bulb: ** Datatype selection on upload **
-  > Before pressing Start, select
-  > * `fastqsanger` as file type
-  > * `dm3` as genome
-  > in the upload dialogue.
   
 2. Both files contain the first 100.000 paired-end reads of one untreated sample. It's recommended to rename the datasets according to the samples. As default, Galaxy takes the link as the name.
 3. **FastQC ⚙**: Run this tool on one of the two FASTQ files to control the quality of the reads. We can now inspect the results. What is the read length? 
 4. **Trim Galore ⚙**: Trim Galore allows us to trim the low quality bases from the 3' ends. Try this on both paired-end reads. You might have to set the datatype to `fastqsanger`.
 
-  > :bulb: **Datatype selection **
+  > :bulb: **Datatype selection**
   > * Click on the pencil button of the dataset to edit the attributes.
   > * Choose `fastqsanger` as the datatype.
   > * Save.
